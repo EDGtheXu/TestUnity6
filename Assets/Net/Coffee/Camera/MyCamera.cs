@@ -11,7 +11,6 @@ public class Camera : MonoBehaviour
             target = obj;
             this.transform.SetParent(target.transform);
         }
-
     }
     GameObject target;
     // Update is called once per frame
